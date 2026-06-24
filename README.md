@@ -1,16 +1,39 @@
-# React + Vite
+# SyncX Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Realtime Queue Management System — Frontend
 
-Currently, two official plugins are available:
+## Live Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Patient Dashboard
 
-## React Compiler
+https://sync-x-frontend.vercel.app/patient
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Reception Dashboard
 
-## Expanding the ESLint configuration
+https://sync-x-frontend.vercel.app/reception
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+* Realtime queue updates using Socket.IO
+* Separate dashboards for patients and reception
+* Live token display
+* Emergency patient prioritization
+* Estimated waiting time calculation
+* Average consultation analytics
+* Queue control panel
+* Responsive modern UI
+* Deployed on Vercel
+
+---
+
+## Tech Stack
+
+* React.js
+* Vite
+* Tailwind CSS
+* Axios
+* Socket.IO Client
+* React Router DOM
+
